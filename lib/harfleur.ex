@@ -19,8 +19,8 @@ defmodule Harfleur do
   end
 
   def call(conn, _opts \\ []) do
-    breach = :rand.uniform(128) 
-      |> :crypto.strong_rand_bytes() 
+    breach = :rand.uniform(128)
+      |> :crypto.strong_rand_bytes()
       |> :base64.encode()
     
     conn
