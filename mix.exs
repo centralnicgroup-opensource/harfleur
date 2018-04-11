@@ -9,7 +9,7 @@ defmodule Harfleur.Mixfile do
      start_permanent: Mix.env == :prod,
      deps: deps(),
      package: package(),
-     description: "A Plug that adds legth hiding strategy",
+     description: "A Plug that adds variable length strategy for encryption over https",
      source_url: "https://github.com/iwantmyname/harfleur"
    ]
   end
