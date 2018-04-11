@@ -21,9 +21,10 @@ defmodule Harfleur.Mixfile do
     [applications: [:plug, :logger]]
   end
 
-  
   defp deps do
-    [ {:plug, "~> 1.5"}]
+    [ {:plug, "~> 1.5"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
+    ]
   end
 
   def package do
